@@ -2,8 +2,24 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
 }
 
 img {
   max-width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
 }
